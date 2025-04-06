@@ -1,0 +1,7 @@
+npm i 
+npm run build
+
+
+go to backend 
+make a venv 
+install library and python astrovsion_api.py
