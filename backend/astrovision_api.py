@@ -26,10 +26,10 @@ app.add_middleware(
 )
 
 # Check if model files exist
-waste_model_path = os.environ.get('YOLO_MODEL_PATH', 'best.pt')
-drone_model_path = os.environ.get('DRONE_MODEL_PATH', 'best2.pt')
-space_model_path = os.environ.get('SPACE_MODEL_PATH', 'space.pt')
-space_anomaly_model_path = os.environ.get('SPACE_ANOMALY_MODEL_PATH', 'anomaly.pt')
+waste_model_path = os.environ.get( 'best.pt')
+drone_model_path = os.environ.get( 'best2.pt')
+space_model_path = os.environ.get( 'best3.pt')
+space_anomaly_model_path = os.environ.get( 'best3.pt')
 
 # Check if model files exist
 waste_model_exists = os.path.exists(waste_model_path)
